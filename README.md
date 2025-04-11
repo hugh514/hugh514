@@ -46,5 +46,6 @@
 ### 🐍 Commits
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake-dark.svg" />
+
 </p>
