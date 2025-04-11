@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Gera a cada dia à meia-noite
+    - cron: "0 0 * * *"  # Executa diariamente à meia-noite
   push:
     branches:
       - main
@@ -13,21 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: write  # Permissão para fazer push no repositório
 
     steps:
-      - name: Checkout repo
+      - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: Generate snake animation (dark mode)
+      - name: Gerar animação da cobrinha (modo escuro)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake-dark-test.svg
-          palette: "github-dark"
+            dist/github-contribution-grid-snake.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?palette=github-dark
 
-      - name: Push to output branch
+      - name: Push para a branch de saída
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
