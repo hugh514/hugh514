@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Gera a cada dia à meia-noite
+    - cron: "0 0 * * *" 
   push:
     branches:
       - main
@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Permissão para fazer push no repositório
+      contents: write 
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate snake animation
+      - name: Generate snake animation (dark mode)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
