@@ -1,7 +1,7 @@
 <h1 align="center">Olá! Eu sou o Hugo 👋</h1>
 
 <p align="center">
-  🚀 Desenvolvedor Mobile apaixonado por tecnologia e inovação<br>
+  🚀 Desenvolvedor Mobile e Web<br>
   📚 Atualmente estudando C# e expandindo meus conhecimentos<br>
 </p>
 
