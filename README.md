@@ -1,4 +1,4 @@
-<h1 align="center">Olá! Eu sou o Hugo 👋</h1>
+<h1 align="center">Olá! Eu sou o Hugo</h1>
 
 <p align="center">
   💻 Desenvolvedor Web e Mobile <br>
