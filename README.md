@@ -33,10 +33,7 @@ sempre buscando melhorar meu desempenho como desenvolvedor full stack.
 <p align="center">
   <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
@@ -50,8 +47,6 @@ sempre buscando melhorar meu desempenho como desenvolvedor full stack.
 | Projeto | Descrição | Tecnologias |
 |----------|------------|-------------|
 | [**SigaApp**](https://github.com/hugh514/siga-app-blazor) | Sistema acadêmico desenvolvido em **Blazor** com integração a banco de dados. | Blazor • C# • .NET • MySQL |
-| [**API NestJS Base**](https://github.com/hugh514/nestjs-api-lab) | Estrutura base para criação de APIs escaláveis. | NestJS • TypeScript • PostgreSQL |
-| [**React Dashboard**](https://github.com/hugh514/react-projects) | Interface moderna e responsiva com React Hooks. | React • CSS • Chart.js |
 
 ---
 
