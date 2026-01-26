@@ -10,8 +10,7 @@
 
 <div align="center">
   <a href="https://github.com/hugh514">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hugh514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugh514&layout=compact&langs_count=7&theme=dracula" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hugh514&show_icons=true&include_all_commits=true&count_private=true" />
   </a>
 </div>
 
@@ -21,7 +20,7 @@
 
 🎯 Sou apaixonado por tecnologia e desenvolvimento de software.  
 Atualmente, estou explorando o ecossistema **.NET (Blazor)** no front-end,  
-**React** para interfaces modernas e **NestJS** para APIs robustas e escaláveis.  
+**React** para interfaces modernas e **NextJS** para APIs robustas e melhoramentos de interface.  
 
 Gosto de transformar ideias em código limpo e funcional,  
 sempre buscando melhorar meu desempenho como desenvolvedor full stack.  
