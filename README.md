@@ -2,7 +2,7 @@
 
 <p align="center">
   💻 Desenvolvedor Web e Mobile <br>
-  🚀 Focado em Blazor, React e NestJS <br>
+  🚀 Focado em Blazor, React e NextJS <br>
   📚 Atualmente aprimorando meus conhecimentos em C# e desenvolvimento full stack <br>
 </p>
 
