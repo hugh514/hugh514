@@ -3,7 +3,7 @@
   <p><strong>Desenvolvedor Full Stack | Blazor • Nextjs • .NET</strong></p>
 
   <p>
-    <a href="https://www.linkedin.com/in/hugo-santos-dev/">
+    <a href="https://www.linkedin.com/in/hugo-santos-875bb2245/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://github.com/hugh514">
@@ -45,12 +45,6 @@ Sou um desenvolvedor apaixonado por criar soluções robustas e interfaces intui
 ---
 
 ### 📊 Estatísticas e Atividade
-
-<div align="center">
-  <img height="165em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hugh514&theme=material_palenight&include_all_commits=true" />
-</div>
-
-<br />
 
 <div align="center">
   <picture>
