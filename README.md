@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Olá, eu sou o Hugo 👋</h1>
-  <p><strong>Desenvolvedor Full Stack | Blazor • React • .NET</strong></p>
+  <p><strong>Desenvolvedor Full Stack | Blazor • Nextjs • .NET</strong></p>
 
   <p>
     <a href="https://www.linkedin.com/in/hugo-santos-dev/">
