@@ -94,7 +94,6 @@ Sistema acadêmico completo desenvolvido com **Blazor WebAssembly** e integraç�
 ### 🤝 Vamos Conectar?
 
 Estou aberto a:
-- 💼 Oportunidades de trabalho e colaboração
 - 💭 Discussões sobre arquitetura e melhores práticas
 - 🔗 Parcerias em projetos interessantes
 - 📖 Compartilhar e aprender conhecimento
