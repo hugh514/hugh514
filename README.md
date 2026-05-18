@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>Olá, eu sou o Hugo 👋</h1>
-  <p><strong>Desenvolvedor Full Stack | Go • NestJS • Next.js • Blazor</strong></p>
-  <p><em>Focado em Arquitetura Escalável, Clean Code & Soluções Robustas</em></p>
+  <h1>Oi, eu sou o Hugo 👋</h1>
+  <p><strong>Desenvolvedor | TypeScript • Go • C#</strong></p>
+  <p><em>Aprendendo sempre, cometendo erros e consertando no caminho</em></p>
 
   <p>
     <a href="https://www.linkedin.com/in/hugo-santos-875bb2245/">
@@ -18,90 +18,67 @@
 
 ---
 
-### 🧠 Sobre Mim
+### 👨‍💻 Sobre Mim
 
-Sou um desenvolvedor apaixonado por criar soluções robustas, escaláveis e interfaces intuitivas. Trabalho com o ecossistema **.NET**, **JavaScript/TypeScript** e mais recentemente **Go**, sempre com foco em arquitetura limpa, design patterns e boas práticas de desenvolvimento.
+Sou um desenvolvedor que gosta de programar e está sempre aprendendo. Trabalho principalmente com **TypeScript**, **Go** e **C#**, e uso essas linguagens na maioria dos meus projetos. Não sou especialista em nada, mas gosto de fazer as coisas funcionarem bem.
 
-* 🏗️ Especializado em **Arquitetura de Sistemas** (Clean Architecture, Microserviços, Design Patterns)
-* 🚀 Aprimorando conhecimentos em **Backend High Performance** com Go e NestJS
-* 💻 Criando **Interfaces Modernas** com React, Next.js e Tailwind CSS
-* 📚 Comprometido com **código limpo, escalável e de fácil manutenção**
-* 🔄 Experiência em **boas práticas de desenvolvimento**: SOLID, DRY, KISS
-* 💬 Sempre aberto para colaborar e compartilhar conhecimento!
+* Trabalho com backend e frontend quando preciso
+* Tenho interesse em otimização e performance
+* Gosto de código que é fácil de entender
+* Sempre descobrindo coisas novas e refazendo o que estava errado
 
 ---
 
-### 🛠️ Tecnologias & Stack
+### 🛠️ Linguagens que Uso
 
-| Categoria | Tecnologias |
+| Linguagem | Uso |
 | :--- | :--- |
-| **Backend** | Go, NestJS, .NET Core, Web API, Node.js, SQL |
-| **Frontend** | Next.js, React, Blazor WebAssembly, HTML5, CSS3, Tailwind CSS |
-| **Linguagens** | Go, C#, TypeScript, JavaScript, SQL |
-| **DevOps/Tools** | Git, GitHub, GitHub Actions, Docker, MySQL, PostgreSQL, Vercel |
-| **Arquitetura** | Clean Architecture, Microserviços, RESTful APIs, Design Patterns, SOLID |
+| **TypeScript** | Frontend e backend, é minha linguagem mais usada |
+| **Go** | Backend, para APIs e sistemas que precisam de performance |
+| **C#** | Backend, principalmente com .NET quando surge a oportunidade |
+| **SQL** | Banco de dados, sempre necessário |
+| **JavaScript** | Quando preciso, já que sei TypeScript |
 
 ---
 
-### 🎯 Áreas de Expertise
+### 📚 Ferramentas e Tecnologias
 
-```
-┌─────────────────────────────────────────┐
-│   Full Stack Development                 │
-├─────────────────────────────────────────┤
-│ • Backend Performance-Oriented (Go)      │
-│ • Arquitetura Escalável & Manutenível    │
-│ • TypeScript em todo Stack               │
-│ • UI/UX com Next.js + Tailwind           │
-│ • APIs RESTful bem estruturadas          │
-│ • Banco de Dados Relacional              │
-└─────────────────────────────────────────┘
-```
+Uso o que é necessário para o trabalho:
+
+- **Frontend**: React, Next.js, HTML/CSS
+- **Backend**: Node.js, Go, .NET
+- **Banco de Dados**: MySQL, PostgreSQL
+- **Outros**: Git, Docker, GitHub Actions
 
 ---
 
-### 🚀 Projetos em Destaque
+### 🎯 O que Faço
+
+- Construo APIs e serviços backend
+- Faço interface com frontend quando necessário
+- Trato de banco de dados
+- Automatizo coisas com scripts
+- Procuro melhorar o código quando tenho tempo
+
+---
+
+### 🚀 Alguns Projetos
 
 #### **[SigaApp](https://github.com/hugh514/siga-app-blazor)**
-Sistema acadêmico completo desenvolvido com **Blazor WebAssembly** e integração com **MySQL**. Exemplo prático de arquitetura em camadas com componentes reutilizáveis e gerenciamento de estado eficiente.
+Um sistema acadêmico que fiz com Blazor e banco de dados. Não é perfeito, mas funciona.
 
 ---
 
-### 💡 Filosofia de Desenvolvimento
+### 💬 Vamos Conectar?
 
-> **"Código é lido muito mais vezes do que é escrito"** - Escrevo código pensando em quem virá mantê-lo depois.
+Se quiser trocar uma ideia, colaborar em algo ou só conversar sobre código:
 
-- ✅ **Clean Code** - Legibilidade e manutenibilidade em primeiro lugar
-- ✅ **Design Patterns** - Soluções proven para problemas comuns
-- ✅ **SOLID Principles** - Código flexível e robusto
-- ✅ **Performance** - Otimização onde realmente importa
-- ✅ **Testing** - Code coverage adequado para segurança
-
----
-
-### 📊 Estatísticas e Atividade
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" width="80%" />
-  </picture>
-</div>
-
----
-
-### 🤝 Vamos Conectar?
-
-Estou aberto a:
-- 💭 Discussões sobre arquitetura e melhores práticas
-- 🔗 Parcerias em projetos interessantes
-- 📖 Compartilhar e aprender conhecimento
-
-**Sinta-se à vontade para me chamar nas redes acima!**
+- 📧 Me manda uma mensagem no LinkedIn ou GitHub
+- 🔗 Estou aberto para ajudar com o que souber
+- 📖 Também gosto de aprender com quem tem experiência
 
 ---
 
 <div align="center">
-  <i>Desenvolvendo o futuro, um commit por vez 🚀</i>
+  <i>Codando e aprendendo no processo 👨‍💻</i>
 </div>
