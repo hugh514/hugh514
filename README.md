@@ -7,6 +7,8 @@
 
 ---
 
+## 📊 GitHub Stats
+
 <div align="center">
   <a href="https://github.com/hugh514">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hugh514&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
@@ -14,9 +16,18 @@
   </a>
 </div>
 
+| Métrica | Valor |
+|---------|-------|
+| ⭐ Total Stars Earned | 84 |
+| 🔄 Total Commits (last year) | 1,368 |
+| 📤 Total PRs | 1,215 |
+| 📋 Total Issues | 539 |
+| 📦 Repositories Contributed (last year) | 13 |
+| 🏅 Rank | A |
+
 ---
 
-### 🧠 Tecnologias que uso
+## 🧠 Tecnologias que uso
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -30,7 +41,7 @@
 
 ---
 
-### 📫 Onde me encontrar
+## 📫 Onde me encontrar
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hugo-santos-875bb2245/" target="_blank">
@@ -46,7 +57,7 @@
 
 ---
 
-### 🐍 Commits
+## 🐍 Contribuições
 
 <p align="center">
   <picture>
