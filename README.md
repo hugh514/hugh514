@@ -2,7 +2,6 @@
 
 <p align="center">
   <strong>Desenvolvedor Full Stack</strong> | TypeScript • Go • C#<br>
-  <em>Aprendendo sempre, cometendo erros e consertando no caminho</em><br>
 </p>
 
 <p align="center">
@@ -52,10 +51,4 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
     <img alt="Snake animation" src="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
   </picture>
-</p>
-
----
-
-<p align="center">
-  <strong>Sempre aberto para novas oportunidades e colaborações!</strong> 🚀
 </p>
