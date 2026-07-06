@@ -1,53 +1,50 @@
-<h1 align="center">Olá! Eu sou o Hugo 👋</h1>
-
-<p align="center">
-  <strong>Desenvolvedor Full Stack</strong> | TypeScript • Go • C#<br>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/hugo-santos-875bb2245/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/hugh514" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.instagram.com/hugh_514" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-</p>
-
----
-
-## 📊 GitHub Analytics
+<!-- Galaxy Profile README — gerado a partir do template HerculesSP/HerculesSP -->
 
 <div align="center">
-  <a href="https://github.com/hugh514">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hugh514&layout=compact&langs_count=7&theme=dracula&hide_border=true" />
-  </a>
+  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Galaxy Header"/>
 </div>
 
----
+<br/>
 
-## 🛠️ Tecnologias
+<div align="center">
+  <img src="./assets/generated/projects-constellation.svg" width="850" alt="Featured Projects"/>
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodejs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</p>
+<br/>
 
----
+<div align="center">
+  <img src="./assets/generated/tech-stack.svg" width="850" alt="Tech Stack"/>
+</div>
 
-## 🐍 Contribuições
+<br/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+<div align="center">
+  <img src="./assets/generated/stats-card.svg" width="850" alt="Mission Telemetry"/>
+</div>
+
+<br/>
+
+<details>
+<summary><strong>Mais sobre mim</strong></summary>
+
+<br/>
+
+Formado como Técnico em Informática pelo IFRO, sempre buscando o melhor que posso fazer em tudo que participo.
+Atuo com TypeScript, Go e C# em projetos web e APIs, do front ao back.
+
+**Localização:** Ji-Paraná/RO, Brasil
+</details>
+
+<br/>
+
+<div align="center">
+  <a href="mailto:santos.hugh514@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/hugo-santos-875bb2245/">
+    <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.instagram.com/hugh_514">
+    <img src="https://img.shields.io/badge/-Instagram-080c14?style=for-the-badge&logo=instagram&logoColor=ffb020" alt="Instagram"/>
+  </a>
+</div>
