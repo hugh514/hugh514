@@ -7,7 +7,7 @@ profile:
   location: "Ji-Paraná/RO, Brasil"
   bio: |
     Formado como Técnico em Informática pelo IFRO, sempre buscando o melhor que posso fazer em tudo que participo.
-    Atuo com TypeScript, Go e C# em projetos web e APIs, do front ao back.
+    Atuo com TypeScript, Go e C# em projetos web e APIs — destaques: SIGA (Blazor Server) e copy trading (NestJS + Next.js).
   philosophy: '"Código bom é o que resolve o problema de quem usa."'
 
 social:
@@ -36,18 +36,18 @@ galaxy_arms:
       - "GitHub Actions"
 
 projects:
-  - repo: "hugh514/copy_trading_back"
-    arm: 1
-    description: "Backend em TypeScript para plataforma de copy trading."
-  - repo: "hugh514/site-blog"
-    arm: 0
-    description: "Blog pessoal com stack moderna em TypeScript."
   - repo: "hugh514/siga-app-blazor"
     arm: 1
-    description: "Aplicação SIGA construída com Blazor e .NET."
+    description: "Sistema acadêmico completo em Blazor Server com deploy no Render."
+  - repo: "hugh514/copy_trading_back"
+    arm: 1
+    description: "API NestJS com WebSockets, JWT e testes de segurança."
+  - repo: "hugh514/copy_trading"
+    arm: 0
+    description: "Frontend Next.js com auth, dashboard e gestão de usuários."
   - repo: "hugh514/ValidarCPF"
     arm: 1
-    description: "Validação de CPF em C# com regras oficiais."
+    description: "Validador de CPF em C# com regras oficiais."
 
 theme:
   void: "#080c14"
