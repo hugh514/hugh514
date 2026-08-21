@@ -151,7 +151,7 @@
     <circle cx="152.5" cy="85" r="2" fill="#ffffff" opacity="0.9"/>
     <text x="152.5" y="111" fill="#f1f5f9" font-size="14" font-weight="bold" font-family="sans-serif" text-anchor="middle">api-barbearia</text>
     <text x="152.5" y="129" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">API NestJS multi-tenant: RBAC,</text>
-    <text x="152.5" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">filas BullMQ, Mercado Pago e</text>
+    <text x="152.5" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">filas e pagamentos.</text>
     <rect x="120.0" y="163" width="65" height="18" rx="9" ry="9" fill="#00d4ff" opacity="0.12"/>
     <text x="152.5" y="175" fill="#00d4ff" font-size="9" font-family="monospace" text-anchor="middle" opacity="0.85">Backend</text>
   </g>
@@ -168,7 +168,7 @@
     <circle cx="425.0" cy="85" r="2" fill="#ffffff" opacity="0.9"/>
     <text x="425.0" y="111" fill="#f1f5f9" font-size="14" font-weight="bold" font-family="sans-serif" text-anchor="middle">barbearia-backoffice</text>
     <text x="425.0" y="129" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">Painel Next.js 16 com TanStack</text>
-    <text x="425.0" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">Query, RBAC por rota e tempo</text>
+    <text x="425.0" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">Query e tempo real.</text>
     <rect x="389.0" y="163" width="72" height="18" rx="9" ry="9" fill="#ffb020" opacity="0.12"/>
     <text x="425.0" y="175" fill="#ffb020" font-size="9" font-family="monospace" text-anchor="middle" opacity="0.85">Frontend</text>
   </g>
@@ -185,7 +185,7 @@
     <circle cx="697.5" cy="85" r="2" fill="#ffffff" opacity="0.9"/>
     <text x="697.5" y="111" fill="#f1f5f9" font-size="14" font-weight="bold" font-family="sans-serif" text-anchor="middle">copy_trading_back</text>
     <text x="697.5" y="129" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">API NestJS com WebSockets, JWT e</text>
-    <text x="697.5" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">testes de segurança.</text>
+    <text x="697.5" y="144" fill="#94a3b8" font-size="11" font-family="sans-serif" text-anchor="middle">testes.</text>
     <rect x="665.0" y="163" width="65" height="18" rx="9" ry="9" fill="#00d4ff" opacity="0.12"/>
     <text x="697.5" y="175" fill="#00d4ff" font-size="9" font-family="monospace" text-anchor="middle" opacity="0.85">Backend</text>
   </g>
