@@ -41,13 +41,13 @@ galaxy_arms:
 projects:
   - repo: "hugh514/api-barbearia"
     arm: 1
-    description: "API NestJS multi-tenant: RBAC, filas BullMQ, Mercado Pago e omnichannel."
+    description: "API NestJS multi-tenant: RBAC, filas e pagamentos."
   - repo: "hugh514/barbearia-backoffice"
     arm: 0
-    description: "Painel Next.js 16 com TanStack Query, RBAC por rota e tempo real."
+    description: "Painel Next.js 16 com TanStack Query e tempo real."
   - repo: "hugh514/copy_trading_back"
     arm: 1
-    description: "API NestJS com WebSockets, JWT e testes de segurança."
+    description: "API NestJS com WebSockets, JWT e testes."
 
 theme:
   void: "#080c14"
