@@ -3,11 +3,11 @@ username: hugh514
 profile:
   name: "Hugo Santos"
   tagline: "Desenvolvedor Full Stack"
-  company: ""
+  company: "Uni Internet"
   location: "Ji-Paraná/RO, Brasil"
   bio: |
-    Formado como Técnico em Informática pelo IFRO, sempre buscando o melhor que posso fazer em tudo que participo.
-    Atuo com TypeScript, Go e C# em projetos web e APIs — destaques: SIGA (Blazor Server) e copy trading (NestJS + Next.js).
+    Construo produtos web, APIs e aplicativos em produção num provedor de fibra óptica com 140 mil+ clientes.
+    Do frontend em React/Next.js ao backend em Node.js/NestJS e Go — REST, gRPC, PostgreSQL, Redis e Docker.
   philosophy: '"Código bom é o que resolve o problema de quem usa."'
 
 social:
@@ -19,35 +19,35 @@ galaxy_arms:
     color: "axon_amber"
     items:
       - "React"
-      - "TypeScript"
       - "Next.js"
+      - "TypeScript"
+      - "Tailwind CSS"
   - name: "Backend"
     color: "synapse_cyan"
     items:
-      - "Go"
       - "Node.js"
-      - "C#"
-      - "TypeScript"
-  - name: "DevOps"
+      - "NestJS"
+      - "Go"
+      - "PostgreSQL"
+      - "Redis"
+  - name: "Mobile & Infra"
     color: "dendrite_violet"
     items:
+      - "React Native"
+      - "Expo"
       - "Docker"
-      - "Git"
       - "GitHub Actions"
 
 projects:
-  - repo: "hugh514/siga-app-blazor"
+  - repo: "hugh514/api-barbearia"
     arm: 1
-    description: "Sistema acadêmico completo em Blazor Server com deploy no Render."
+    description: "API NestJS multi-tenant: RBAC, filas BullMQ, Mercado Pago e omnichannel."
+  - repo: "hugh514/barbearia-backoffice"
+    arm: 0
+    description: "Painel Next.js 16 com TanStack Query, RBAC por rota e tempo real."
   - repo: "hugh514/copy_trading_back"
     arm: 1
     description: "API NestJS com WebSockets, JWT e testes de segurança."
-  - repo: "hugh514/copy_trading"
-    arm: 0
-    description: "Frontend Next.js com auth, dashboard e gestão de usuários."
-  - repo: "hugh514/ValidarCPF"
-    arm: 1
-    description: "Validador de CPF em C# com regras oficiais."
 
 theme:
   void: "#080c14"
