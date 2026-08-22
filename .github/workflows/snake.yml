@@ -29,10 +29,14 @@ jobs:
 
       - name: Emoldurar a grade no padrão dos outros cards
         run: |
+          # A action do snake roda em container, então dist/ nasce como root e
+          # o runner não consegue gravar dentro dele.
+          sudo chown -R "$(id -u):$(id -g)" dist
           python3 scripts/frame_snake.py \
             dist/github-contribution-grid-snake.svg \
             dist/contributions-card.svg \
             "${{ github.repository_owner }}"
+          ls -l dist
 
       - name: Push para a branch de saída
         uses: crazy-max/ghaction-github-pages@v3
