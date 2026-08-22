@@ -6,8 +6,8 @@ profile:
   company: "Uni Internet"
   location: "Ji-Paraná/RO, Brasil"
   bio: |
-    Construo produtos web, APIs e aplicativos em produção num provedor de fibra óptica com 140 mil+ clientes.
-    Do frontend em React/Next.js ao backend em Node.js/NestJS e Go — REST, gRPC, PostgreSQL, Redis e Docker.
+    Trabalho com TypeScript nas duas pontas: React e Next.js na interface, Node.js, NestJS e Go nos serviços.
+    Também PostgreSQL, Redis, APIs REST e gRPC, Docker, testes automatizados e CI/CD.
   philosophy: '"Código bom é o que resolve o problema de quem usa."'
 
 social:
@@ -38,16 +38,7 @@ galaxy_arms:
       - "Docker"
       - "GitHub Actions"
 
-projects:
-  - repo: "hugh514/api-barbearia"
-    arm: 1
-    description: "API NestJS multi-tenant: RBAC, filas e pagamentos."
-  - repo: "hugh514/barbearia-backoffice"
-    arm: 0
-    description: "Painel Next.js 16 com TanStack Query e tempo real."
-  - repo: "hugh514/copy_trading_back"
-    arm: 1
-    description: "API NestJS com WebSockets, JWT e testes."
+projects: []
 
 theme:
   void: "#080c14"
@@ -63,10 +54,9 @@ theme:
 stats:
   metrics:
     - "commits"
-    - "stars"
     - "prs"
-    - "issues"
     - "repos"
+    - "stars"
 
 languages:
   exclude:

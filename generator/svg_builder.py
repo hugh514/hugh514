@@ -28,10 +28,16 @@ class SVGBuilder:
 
     def render_stats_card(self) -> str:
         metrics = self.config["stats"]["metrics"]
+        lang_config = self.config.get("languages", {})
+        exclude = set(lang_config.get("exclude", []))
+        languages = {k: v for k, v in self.languages.items() if k not in exclude}
         return stats_card.render(
             stats=self.stats,
             metrics=metrics,
             theme=self.theme,
+            username=self.config.get("username", ""),
+            languages=languages,
+            galaxy_arms=self.galaxy_arms,
         )
 
     def render_tech_stack(self) -> str:

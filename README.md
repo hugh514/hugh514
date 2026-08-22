@@ -1,71 +1,59 @@
 <div align="center">
-  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Hugo Santos — Desenvolvedor Full Stack"/>
+  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Hugo Santos, desenvolvedor full stack"/>
 </div>
 
-## Olá, eu sou o Hugo 👋
+<br/>
 
-Desenvolvedor **Full Stack** em Ji-Paraná/RO. Trabalho num provedor de internet fibra óptica
-com **140 mil+ clientes**, onde construo e mantenho produtos web, APIs e aplicativos **em produção**.
+`hugh514@github:~$ whoami`
 
-No dia a dia vou do **React / Next.js / TypeScript** no frontend ao **Node.js / NestJS** e **Go**
-no backend — APIs REST e gRPC, PostgreSQL, Redis, Docker, testes automatizados e CI/CD.
+Hugo Santos, desenvolvedor full stack em Ji-Paraná/RO.
 
-**O que eu já entreguei:**
+Trabalho com TypeScript nas duas pontas. No frontend, React e Next.js com App Router e Server
+Components. No backend, Node.js e NestJS no ecossistema JavaScript, e Go quando o serviço pede
+concorrência e baixo consumo. Entre os dois, APIs REST e gRPC, PostgreSQL, Redis, Docker,
+testes automatizados e pipelines de CI/CD.
 
-- Um **backoffice** com 29 módulos de gestão que a empresa usa todos os dias
-- Uma **API em Go** com 247 endpoints REST e mais de 180 arquivos de teste
-- Um **app mobile** em React Native/Expo publicado nas lojas, com atualizações OTA
-- Uma **plataforma de analytics** com pipeline de ingestão MongoDB → PostgreSQL
-- Contribuições numa reescrita de ERP em **microserviços Go com gRPC e NATS JetStream**
+<br/>
 
----
+`hugh514@github:~$ cat stack.txt`
 
-## 🛰️ Projetos em destaque
+| | |
+|---|---|
+| **Linguagens** | TypeScript, JavaScript, Go, C#, Dart, SQL |
+| **Frontend** | React, Next.js (App Router, Server Components), Tailwind CSS, shadcn/ui, TanStack Query, TanStack Table, TanStack Form, React Hook Form, Zod |
+| **Backend** | Node.js, NestJS, Fastify, Go (Gin, GORM), REST, gRPC e Protocol Buffers, Server-Sent Events, WebSockets |
+| **Dados** | PostgreSQL, MySQL, MongoDB, Redis, Prisma, Drizzle ORM, migrações SQL |
+| **Filas** | BullMQ, NATS JetStream |
+| **Mobile** | React Native, Expo (EAS Build e EAS Update), Flutter |
+| **Engenharia** | Git, Docker, GitHub Actions, Playwright, Vitest, Jest, Swagger e OpenAPI, Sentry, logs estruturados |
+
+<br/>
 
 <div align="center">
-  <img src="./assets/generated/projects-constellation.svg" width="850" alt="Projetos em destaque"/>
+  <img src="./assets/generated/tech-stack.svg" width="850" alt="Distribuição de linguagens e áreas de foco"/>
 </div>
 
-| Projeto | O que é | Stack |
-|---|---|---|
-| **[api-barbearia](https://github.com/hugh514/api-barbearia)** | API central multi-tenant de uma plataforma de barbearia: RBAC, fila de atendimento, check-in por QR, assinaturas recorrentes, pagamentos e atendimento omnichannel | NestJS · Prisma · PostgreSQL · Redis · BullMQ · Socket.IO · Sentry |
-| **[barbearia-backoffice](https://github.com/hugh514/barbearia-backoffice)** | Painel de gestão que consome a API: agenda, fila, planos, clientes e conversas em tempo real | Next.js 16 · React 19 · TanStack Query · Playwright |
-| **[barbearia-cliente](https://github.com/hugh514/barbearia-cliente)** | App do cliente: check-in por QR Code, planos e histórico | Next.js 16 · React 19 · Zod |
-| **[copy_trading_back](https://github.com/hugh514/copy_trading_back)** | API de plataforma de copy trading com WebSockets e testes de segurança | NestJS · TypeScript · JWT |
-| **[copy_trading](https://github.com/hugh514/copy_trading)** | Frontend com autenticação, dashboard e gestão de usuários | Next.js · React · TypeScript |
-| **[hugh514](https://github.com/hugh514/hugh514)** | O gerador que desenha este perfil: SVGs criados a partir de um `config.yml`, atualizados por GitHub Actions | Python · GitHub Actions |
+<br/>
 
----
-
-## 🌌 Stack
+`hugh514@github:~$ ./telemetry`
 
 <div align="center">
-  <img src="./assets/generated/tech-stack.svg" width="850" alt="Stack"/>
+  <img src="./assets/generated/stats-card.svg" width="850" alt="Telemetria da conta"/>
 </div>
 
-**Frontend** — TypeScript · React · Next.js (App Router) · Tailwind CSS · TanStack Query/Table/Form · Zod
-**Backend** — Node.js · NestJS · Fastify · Go (Gin, GORM) · REST · gRPC/Protobuf · SSE · WebSockets
-**Dados** — PostgreSQL · MySQL · MongoDB · Redis · Prisma · Drizzle ORM
-**Filas** — BullMQ · NATS JetStream
-**Mobile** — React Native · Expo (EAS Build/Update) · Flutter
-**Engenharia** — Git · Docker · GitHub Actions · Playwright · Vitest · Jest · Swagger/OpenAPI · Sentry
+<br/>
 
----
-
-## 📊 Telemetria
+`hugh514@github:~$ ./contributions`
 
 <div align="center">
-  <img src="./assets/generated/stats-card.svg" width="850" alt="Estatísticas"/>
+  <img src="https://raw.githubusercontent.com/hugh514/hugh514/output/github-contribution-grid-snake.svg" width="850" alt="Grade de contribuições"/>
 </div>
 
-<div align="center">
-  <img src="./dist/github-contribution-grid-snake.svg" width="850" alt="Gráfico de contribuições"/>
-</div>
+<br/>
 
----
+`hugh514@github:~$ contact`
 
-## 📫 Contato
+[LinkedIn](https://www.linkedin.com/in/hugo-santos-875bb2245/) · [santos.hugh514@gmail.com](mailto:santos.hugh514@gmail.com)
 
-**[LinkedIn](https://www.linkedin.com/in/hugo-santos-875bb2245/)** · **[santos.hugh514@gmail.com](mailto:santos.hugh514@gmail.com)**
-
-<sub>Aberto a conversas sobre vagas Full Stack (TypeScript / Node.js / React / Go).</sub>
+<sub>Este perfil é desenhado por um gerador próprio: os SVGs saem de um <code>config.yml</code> e são
+reconstruídos por GitHub Actions. Código em <a href="https://github.com/hugh514/hugh514">hugh514/hugh514</a>.</sub>
