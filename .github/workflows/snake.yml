@@ -24,8 +24,15 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%2300d4ff&color_dots=%230f1623,%231a2332,%23334155,%23a78bfa,%2300d4ff
-            dist/github-contribution-grid-snake.gif?color_snake=%2300d4ff&color_dots=%230f1623,%231a2332,%23334155,%23a78bfa,%2300d4ff
+            dist/github-contribution-grid-snake.svg?color_snake=%2300d4ff&color_dots=%231a2332,%2326344a,%233d5a80,%23a78bfa,%2300d4ff
+            dist/github-contribution-grid-snake.gif?color_snake=%2300d4ff&color_dots=%231a2332,%2326344a,%233d5a80,%23a78bfa,%2300d4ff
+
+      - name: Emoldurar a grade no padrão dos outros cards
+        run: |
+          python3 scripts/frame_snake.py \
+            dist/github-contribution-grid-snake.svg \
+            dist/contributions-card.svg \
+            "${{ github.repository_owner }}"
 
       - name: Push para a branch de saída
         uses: crazy-max/ghaction-github-pages@v3

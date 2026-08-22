@@ -62,7 +62,7 @@ def render(stats: dict, metrics: list, theme: dict, username: str = "",
     bright = theme["text_bright"]
     rule = theme["star_dust"]
 
-    handle = f"{username}@github" if username else "github"
+    handle = f"{username}@github:~$ ./telemetry" if username else "github:~$ ./telemetry"
 
     # Left pane: star chart centred in its own column.
     cx, cy = 116, 138

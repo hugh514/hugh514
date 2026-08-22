@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="386" viewBox="0 0 850 386">
+  <rect x="0.5" y="0.5" width="849" height="385" rx="10" ry="10"
+        fill="#0f1623" stroke="#1a2332" stroke-width="1"/>
+
+  <text x="30" y="42" fill="#00d4ff" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">hugh514@github:~$ cat stack.txt</text>
+  <line x1="30" y1="54" x2="820" y2="54" stroke="#1a2332" stroke-width="1"/>
+
+  <text x="30" y="74" fill="#64748b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="0.5">Linguagens</text>
+  <text x="168" y="74" fill="#f1f5f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">TypeScript, JavaScript, Go, C#, Dart, SQL</text>
+  <line x1="30" y1="97" x2="820" y2="97" stroke="#1a2332" stroke-width="1" opacity="0.45"/>
+  <text x="30" y="108" fill="#64748b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="0.5">Frontend</text>
+  <text x="168" y="108" fill="#f1f5f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">React, Next.js (App Router, Server Components), Tailwind CSS, shadcn/ui, TanStack</text>
+  <text x="168" y="129" fill="#94a3b8" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Query, TanStack Table, TanStack Form, React Hook Form, Zod</text>
+  <line x1="30" y1="152" x2="820" y2="152" stroke="#1a2332" stroke-width="1" opacity="0.45"/>
+  <text x="30" y="163" fill="#64748b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="0.5">Backend</text>
+  <text x="168" y="163" fill="#f1f5f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Node.js, NestJS, Fastify, Go (Gin, GORM), REST, gRPC e Protocol Buffers, Server-Sent</text>
+  <text x="168" y="184" fill="#94a3b8" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Events, WebSockets</text>
+  <line x1="30" y1="207" x2="820" y2="207" stroke="#1a2332" stroke-width="1" opacity="0.45"/>
+  <text x="30" y="218" fill="#64748b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="0.5">Dados</text>
+  <text x="168" y="218" fill="#f1f5f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">PostgreSQL, MySQL, MongoDB, Redis, Prisma, Drizzle ORM, migrações SQL</text>
+  <line x1="30" y1="241" x2="820" y2="241" stroke="#1a2332" stroke-width="1" opacity="0.45"/>
+  <text x="30" y="252" fill="#64748b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="0.5">Filas</text>
+  <text x="168" y="252" fill="#f1f5f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">BullMQ, NATS JetStream</text>
+  <line x1="30" y1="275" x2="820" y2="275" stroke="#1a2332" stroke-width="1" opacity="0.45"/>
+  <text x="30" y="286" fill="#64748b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="0.5">Mobile</text>
+  <text x="168" y="286" fill="#f1f5f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">React Native, Expo (EAS Build e EAS Update), Flutter</text>
+  <line x1="30" y1="309" x2="820" y2="309" stroke="#1a2332" stroke-width="1" opacity="0.45"/>
+  <text x="30" y="320" fill="#64748b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="0.5">Engenharia</text>
+  <text x="168" y="320" fill="#f1f5f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Git, Docker, GitHub Actions, Playwright, Vitest, Jest, Swagger e OpenAPI, Sentry, logs</text>
+  <text x="168" y="341" fill="#94a3b8" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">estruturados</text>
+</svg>

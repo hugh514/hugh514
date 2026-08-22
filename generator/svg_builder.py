@@ -1,6 +1,13 @@
 """SVG Builder — orchestrator connecting config, stats, and templates."""
 
-from generator.templates import galaxy_header, stats_card, tech_stack, projects_constellation
+from generator.templates import (
+    galaxy_header,
+    projects_constellation,
+    stack_card,
+    stats_card,
+    terminal_card,
+    tech_stack,
+)
 
 
 class SVGBuilder:
@@ -26,6 +33,21 @@ class SVGBuilder:
             projects=self.projects,
         )
 
+    def render_whoami_card(self) -> str:
+        return terminal_card.render(
+            prompt="whoami",
+            body=self.config["profile"].get("bio", ""),
+            theme=self.theme,
+            username=self.config.get("username", ""),
+        )
+
+    def render_stack_card(self) -> str:
+        return stack_card.render(
+            stack=self.config.get("stack", []),
+            theme=self.theme,
+            username=self.config.get("username", ""),
+        )
+
     def render_stats_card(self) -> str:
         metrics = self.config["stats"]["metrics"]
         lang_config = self.config.get("languages", {})
@@ -48,6 +70,7 @@ class SVGBuilder:
             theme=self.theme,
             exclude=lang_config.get("exclude", []),
             max_display=lang_config.get("max_display", 8),
+            username=self.config.get("username", ""),
         )
 
     def render_projects_constellation(self) -> str:

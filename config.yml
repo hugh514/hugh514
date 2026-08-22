@@ -6,13 +6,33 @@ profile:
   company: "Uni Internet"
   location: "Ji-Paraná/RO, Brasil"
   bio: |
-    Trabalho com TypeScript nas duas pontas: React e Next.js na interface, Node.js, NestJS e Go nos serviços.
-    Também PostgreSQL, Redis, APIs REST e gRPC, Docker, testes automatizados e CI/CD.
+    Hugo Santos, desenvolvedor full stack em Ji-Paraná/RO.
+
+    Trabalho com TypeScript nas duas pontas. No frontend, React e Next.js com App Router e
+    Server Components. No backend, Node.js e NestJS no ecossistema JavaScript, e Go quando o
+    serviço pede concorrência e baixo consumo. Entre os dois, APIs REST e gRPC, PostgreSQL,
+    Redis, Docker, testes automatizados e pipelines de CI/CD.
   philosophy: '"Código bom é o que resolve o problema de quem usa."'
 
 social:
   email: "santos.hugh514@gmail.com"
   linkedin: "hugo-santos-875bb2245"
+
+stack:
+  - label: "Linguagens"
+    items: "TypeScript, JavaScript, Go, C#, Dart, SQL"
+  - label: "Frontend"
+    items: "React, Next.js (App Router, Server Components), Tailwind CSS, shadcn/ui, TanStack Query, TanStack Table, TanStack Form, React Hook Form, Zod"
+  - label: "Backend"
+    items: "Node.js, NestJS, Fastify, Go (Gin, GORM), REST, gRPC e Protocol Buffers, Server-Sent Events, WebSockets"
+  - label: "Dados"
+    items: "PostgreSQL, MySQL, MongoDB, Redis, Prisma, Drizzle ORM, migrações SQL"
+  - label: "Filas"
+    items: "BullMQ, NATS JetStream"
+  - label: "Mobile"
+    items: "React Native, Expo (EAS Build e EAS Update), Flutter"
+  - label: "Engenharia"
+    items: "Git, Docker, GitHub Actions, Playwright, Vitest, Jest, Swagger e OpenAPI, Sentry, logs estruturados"
 
 galaxy_arms:
   - name: "Frontend"

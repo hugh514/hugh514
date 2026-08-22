@@ -95,6 +95,8 @@ def generate(args):
 
     svgs = {
         "galaxy-header.svg": builder.render_galaxy_header(),
+        "whoami-card.svg": builder.render_whoami_card(),
+        "stack-card.svg": builder.render_stack_card(),
         "stats-card.svg": builder.render_stats_card(),
         "tech-stack.svg": builder.render_tech_stack(),
         "projects-constellation.svg": builder.render_projects_constellation(),
@@ -106,7 +108,7 @@ def generate(args):
             f.write(content)
         logger.info("Wrote %s", path)
 
-    logger.info("Done! 4 SVGs generated.")
+    logger.info("Done! %d SVGs generated.", len(svgs))
 
 
 def main():

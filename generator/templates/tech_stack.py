@@ -5,6 +5,8 @@ import math
 from generator.utils import calculate_language_percentages, esc, svg_arc_path, resolve_arm_colors
 
 WIDTH = 850
+# Faixa de prompt no topo, para o card seguir o mesmo cabecalho dos outros paineis.
+HEADER_OFFSET = 46
 
 
 def _build_language_bars(lang_data, theme, left_x, start_y):
@@ -235,6 +237,7 @@ def render(
     theme: dict,
     exclude: list,
     max_display: int,
+    username: str = "",
 ) -> str:
     """Render the tech stack SVG.
 
@@ -249,7 +252,7 @@ def render(
 
     # Left side: Language bars
     left_x = 30
-    start_y = 65
+    start_y = 65 + HEADER_OFFSET
 
     bars_str = _build_language_bars(lang_data, theme, left_x, start_y)
 
@@ -272,7 +275,7 @@ def render(
     # Radar geometry
     radius = 65
     rcx = 637  # center of right half (425..850)
-    badge_start_y = 65
+    badge_start_y = 65 + HEADER_OFFSET
     rcy = badge_start_y + radius + 10  # center y
     grid_rings = [22, 44, 65]
 
@@ -280,6 +283,9 @@ def render(
     lang_height = start_y + len(lang_data) * 22 + 20
     radar_height = rcy + radius + 35
     height = max(200, lang_height, radar_height)
+
+    handle = f"{username}@github" if username else "github"
+    prompt_line = f"{handle}:~$ ./languages"
 
     # Build radar SVG elements
     radar_parts = []
@@ -297,14 +303,17 @@ def render(
   <rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{height - 1}" rx="12" ry="12"
         fill="{theme['nebula']}" stroke="{theme['star_dust']}" stroke-width="1"/>
 
+  <text x="30" y="42" fill="{theme['synapse_cyan']}" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">{esc(prompt_line)}</text>
+  <line x1="30" y1="54" x2="{WIDTH - 30}" y2="54" stroke="{theme['star_dust']}" stroke-width="1"/>
+
   <!-- Left: Language Telemetry -->
-  <text x="30" y="38" fill="{theme['text_faint']}" font-size="11" font-family="monospace" letter-spacing="3">LANGUAGE TELEMETRY</text>
+  <text x="30" y="{38 + HEADER_OFFSET}" fill="{theme['text_faint']}" font-size="11" font-family="monospace" letter-spacing="3">LANGUAGE TELEMETRY</text>
 
   <!-- Vertical divider -->
-  <line x1="425" y1="25" x2="425" y2="{height - 25}" stroke="{theme['star_dust']}" stroke-width="1" opacity="0.4"/>
+  <line x1="425" y1="{25 + HEADER_OFFSET}" x2="425" y2="{height - 25}" stroke="{theme['star_dust']}" stroke-width="1" opacity="0.4"/>
 
   <!-- Right: Focus Sectors -->
-  <text x="460" y="38" fill="{theme['text_faint']}" font-size="11" font-family="monospace" letter-spacing="3">FOCUS SECTORS</text>
+  <text x="460" y="{38 + HEADER_OFFSET}" fill="{theme['text_faint']}" font-size="11" font-family="monospace" letter-spacing="3">FOCUS SECTORS</text>
 
 {bars_str}
 
