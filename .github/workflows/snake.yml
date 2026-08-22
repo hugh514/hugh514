@@ -19,13 +19,13 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: Gerar animação da cobrinha (modo escuro)
+      - name: Gerar animação da cobrinha (paleta do perfil)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%2300d4ff&color_dots=%230f1623,%231a2332,%23334155,%23a78bfa,%2300d4ff
+            dist/github-contribution-grid-snake.gif?color_snake=%2300d4ff&color_dots=%230f1623,%231a2332,%23334155,%23a78bfa,%2300d4ff
 
       - name: Push para a branch de saída
         uses: crazy-max/ghaction-github-pages@v3
