@@ -56,17 +56,17 @@
     <g>
       <text x="232" y="117" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">PRs</text>
       <line x1="264" y1="113" x2="795" y2="113" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
-      <text x="820" y="117" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">36</text>
+      <text x="820" y="117" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">34</text>
     </g>
     <g>
       <text x="232" y="142" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Repos</text>
       <line x1="279" y1="138" x2="795" y2="138" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
-      <text x="820" y="142" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">20</text>
+      <text x="820" y="142" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">12</text>
     </g>
     <g>
       <text x="232" y="167" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Stars</text>
-      <line x1="279" y1="163" x2="795" y2="163" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
-      <text x="820" y="167" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">20</text>
+      <line x1="279" y1="163" x2="803" y2="163" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
+      <text x="820" y="167" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">7</text>
     </g>
     <g>
       <text x="232" y="192" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Languages</text>
