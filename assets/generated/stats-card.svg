@@ -51,7 +51,7 @@
     <g>
       <text x="232" y="92" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Commits</text>
       <line x1="294" y1="88" x2="780" y2="88" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
-      <text x="820" y="92" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">4.2k</text>
+      <text x="820" y="92" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">4.3k</text>
     </g>
     <g>
       <text x="232" y="117" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">PRs</text>
