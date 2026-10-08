@@ -20,20 +20,20 @@
     <g transform="translate(30, 111)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">TypeScript</text>
       <rect x="110" y="-5" width="200" height="10" rx="2" fill="#1a2332" opacity="0.55"/>
-      <rect x="110" y="-5" width="173.0" height="10" rx="2" fill="#3178c6"/>
-      <text x="324" y="0" fill="#64748b" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">86.5%</text>
+      <rect x="110" y="-5" width="174.2" height="10" rx="2" fill="#3178c6"/>
+      <text x="324" y="0" fill="#64748b" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">87.1%</text>
     </g>
     <g transform="translate(30, 133)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">Python</text>
       <rect x="110" y="-5" width="200" height="10" rx="2" fill="#1a2332" opacity="0.55"/>
-      <rect x="110" y="-5" width="18.6" height="10" rx="2" fill="#3572A5"/>
-      <text x="324" y="0" fill="#64748b" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">9.3%</text>
+      <rect x="110" y="-5" width="17.6" height="10" rx="2" fill="#3572A5"/>
+      <text x="324" y="0" fill="#64748b" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">8.8%</text>
     </g>
     <g transform="translate(30, 155)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">C#</text>
       <rect x="110" y="-5" width="200" height="10" rx="2" fill="#1a2332" opacity="0.55"/>
-      <rect x="110" y="-5" width="7.4" height="10" rx="2" fill="#178600"/>
-      <text x="324" y="0" fill="#64748b" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">3.7%</text>
+      <rect x="110" y="-5" width="7.0" height="10" rx="2" fill="#178600"/>
+      <text x="324" y="0" fill="#64748b" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">3.5%</text>
     </g>
     <g transform="translate(30, 177)">
       <text x="0" y="0" fill="#94a3b8" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" dominant-baseline="middle">JavaScript</text>
