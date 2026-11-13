@@ -61,7 +61,7 @@
     <g>
       <text x="232" y="142" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Repos</text>
       <line x1="279" y1="138" x2="795" y2="138" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
-      <text x="820" y="142" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">12</text>
+      <text x="820" y="142" text-anchor="end" fill="#00d4ff" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">13</text>
     </g>
     <g>
       <text x="232" y="167" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Stars</text>
@@ -70,8 +70,8 @@
     </g>
     <g>
       <text x="232" y="192" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Languages</text>
-      <line x1="309" y1="188" x2="647" y2="188" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
-      <text x="820" y="192" text-anchor="end" fill="#f1f5f9" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">TypeScript, Python, C#</text>
+      <line x1="309" y1="188" x2="588" y2="188" stroke="#1a2332" stroke-width="1" stroke-dasharray="1 5"/>
+      <text x="820" y="192" text-anchor="end" fill="#f1f5f9" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">TypeScript, JavaScript, Python</text>
     </g>
     <g>
       <text x="232" y="217" fill="#94a3b8" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">Focus</text>
