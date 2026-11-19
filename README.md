@@ -4,7 +4,7 @@
 
 <br/>
 
-Fora do trabalho, faço coisas para gente que eu conheço: um jogo para jogar com a minha irmã, o site de uma chocolateria daqui da região e um sistema para barbearias.
+Alguns projetos meus.
 
 ### Almofadada
 
