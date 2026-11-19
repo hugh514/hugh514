@@ -4,7 +4,7 @@
 
 <br/>
 
-Sou técnico em informática formado pelo IFRO e trabalho com desenvolvimento aqui em Ji-Paraná. Uso mais TypeScript, e Go e C# quando o projeto pede. Não sou especialista em nada, mas gosto de fazer as coisas funcionarem bem e estou sempre aprendendo.
+Sou técnico em informática formado pelo IFRO e trabalho com desenvolvimento aqui em Ji-Paraná. Uso mais TypeScript, e também Go e C# quando o projeto pede. Não sou especialista em nada, mas gosto de fazer as coisas funcionarem bem e estou sempre aprendendo.
 
 Alguns projetos que fiz:
 
