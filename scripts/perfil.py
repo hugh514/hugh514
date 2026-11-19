@@ -64,11 +64,10 @@ def cabecalho(caminho):
     c.append('</g>')
     c.append(f'<rect width="{w}" height="{h}" fill="#101216" opacity="0.55"/>')
     c.append(f'<rect x="48" y="{h - 4}" width="420" height="4" fill="url(#luz)"/>')
-    c.append(texto_em_curvas("BarlowCondensed-ExtraBold", "Hugo Santos", 72, 48, 112, "#f4f1ec"))
-    c.append(texto_em_curvas("BarlowCondensed-Medium", "Full stack em Ji-Paraná/RO", 24, 50, 150, "#e0b583"))
-    c.append(texto_em_curvas("BarlowCondensed-Medium", "Cuido de sistemas internos num provedor de internet e, nas horas vagas, do Almofadada.", 19, 50, 182, "#9ea3ab"))
+    c.append(texto_em_curvas("BarlowCondensed-ExtraBold", "Hugo Santos", 72, 48, 122, "#f4f1ec"))
+    c.append(texto_em_curvas("BarlowCondensed-Medium", "Full stack em Ji-Paraná, Rondônia", 26, 50, 164, "#e0b583"))
     c.append('</g>')
-    salvar(caminho, w, h, "Hugo Santos, full stack em Ji-Paraná/RO. Cuido de sistemas internos num provedor de internet e, nas horas vagas, do Almofadada.", c)
+    salvar(caminho, w, h, "Hugo Santos, full stack em Ji-Paraná, Rondônia", c)
 
 
 def navegador(caminho, imagem, iw, ih, endereco, rotulo, corte=0):
