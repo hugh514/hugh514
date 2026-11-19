@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/generated/galaxy-header.svg" width="850" alt="Hugo Santos, desenvolvedor full stack"/>
+  <img src="./assets/muralha.svg" width="850" alt="Hugo Santos, full stack em Ji-Paraná, Rondônia. Uma muralha feita de código ao entardecer, com gigantes espiando por cima"/>
 </div>
 
 <p align="center">
