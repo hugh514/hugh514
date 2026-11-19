@@ -1,5 +1,27 @@
-import random, sys
+import os, random, sys
+from fontTools.pens.svgPathPen import SVGPathPen
+from fontTools.pens.transformPen import TransformPen
+from fontTools.ttLib import TTFont
+
 random.seed(514)
+FONTES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fontes")
+
+
+def texto_em_curvas(fonte, texto, tamanho, cx, base, cor):
+    """Desenha o texto como path, para não depender da fonte de quem abre o SVG."""
+    font = TTFont(os.path.join(FONTES, fonte + ".ttf"))
+    glyphs, cmap = font.getGlyphSet(), font.getBestCmap()
+    escala = tamanho / font["head"].unitsPerEm
+    nomes = [cmap[ord(c)] for c in texto]
+    largura = sum(glyphs[n].width for n in nomes) * escala
+    x, partes = cx - largura / 2, []
+    for n in nomes:
+        pen = SVGPathPen(glyphs)
+        glyphs[n].draw(TransformPen(pen, (escala, 0, 0, -escala, x, base)))
+        partes.append(pen.getCommands())
+        x += glyphs[n].width * escala
+    return f'<path fill="{cor}" d="{" ".join(p for p in partes if p)}"/>'
+
 W, H = 850, 300
 WALL_Y = 168
 tokens = ["const","await","func","SELECT","git push","return","import","async","type","defer","JOIN","interface","npm run","go test","useEffect","nest g","prisma","docker","SELECT *","WHERE","=>","{ }","err != nil","map()","export","grpc","redis","commit","merge","deploy","tsc","lint","fetch","schema","yield","enum","struct","chan","ctx","main"]
@@ -62,7 +84,7 @@ while y < H:
     y += row_h; r += 1
 # placa com o nome
 a(f'<ellipse cx="{W/2}" cy="{WALL_Y+70}" rx="260" ry="62" fill="url(#leitura)"/>')
-a(f'<text x="{W/2}" y="{WALL_Y+72}" text-anchor="middle" font-family="Georgia, \'Times New Roman\', serif" font-size="46" font-weight="700" letter-spacing="3" fill="#f4ede4">Hugo Santos</text>')
-a(f'<text x="{W/2}" y="{WALL_Y+100}" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="2" fill="#e0b583">FULL STACK  ·  JI-PARANÁ, RONDÔNIA</text>')
+a(texto_em_curvas("BarlowCondensed-ExtraBold", "HUGO SANTOS", 62, W/2, WALL_Y+80, "#f4ede4"))
+a(texto_em_curvas("BarlowCondensed-Medium", "full stack em Ji-Paraná, Rondônia", 19, W/2, WALL_Y+106, "#e0b583"))
 a('</svg>')
 open(sys.argv[1], 'w', encoding='utf-8').write("\n".join(out))
