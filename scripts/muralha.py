@@ -87,4 +87,5 @@ a(f'<ellipse cx="{W/2}" cy="{WALL_Y+70}" rx="260" ry="62" fill="url(#leitura)"/>
 a(texto_em_curvas("BarlowCondensed-ExtraBold", "HUGO SANTOS", 62, W/2, WALL_Y+80, "#f4ede4"))
 a(texto_em_curvas("BarlowCondensed-Medium", "full stack em Ji-Paraná, Rondônia", 19, W/2, WALL_Y+106, "#e0b583"))
 a('</svg>')
-open(sys.argv[1], 'w', encoding='utf-8').write("\n".join(out))
+with open(sys.argv[1], 'w', encoding='utf-8') as f:
+    f.write("\n".join(out))

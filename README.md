@@ -48,7 +48,6 @@
       <p>A API é NestJS com PostgreSQL, e as filas de mensagem e pagamento rodam no BullMQ.</p>
       <h3><a href="https://github.com/hugh514/agentes-padrao">agentes-padrao</a></h3>
       <p>As regras que eu uso para trabalhar com agentes de código sem que eles digam "pronto" antes de rodar o teste. Tem um hook que cobra revisão e Playwright no fim de cada turno.</p>
-
     </td>
   </tr>
 </table>
