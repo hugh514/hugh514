@@ -2,9 +2,7 @@
   <img src="./assets/cabecalho.svg" width="850" alt="Hugo Santos, full stack em Ji-Paraná, Rondônia. Cuido de vários sistemas internos num provedor de internet daqui."/>
 </div>
 
-<br/>
-
-Fora do trabalho, faço coisas para gente que eu conheço: um jogo para jogar com a minha irmã, o site de uma chocolateria daqui da região e um sistema para barbearias.
+Alguns projetos meus.
 
 ### Almofadada
 
