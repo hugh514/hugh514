@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/cabecalho.svg" width="850" alt="Hugo Santos, full stack em Ji-Paraná, Rondônia. Cuido de vários sistemas internos num provedor de internet daqui."/>
+  <img src="./assets/cabecalho.svg" width="850" alt="Hugo Santos, full stack em Ji-Paraná/RO. Cuido de sistemas internos num provedor de internet e, nas horas vagas, do Almofadada."/>
 </div>
 
 <br/>
