@@ -43,8 +43,7 @@ def frame(svg_text: str, username: str = "") -> str:
     body = svg_text[open_tag.end():]
     body = re.sub(r"</svg>\s*$", "", body).strip()
 
-    handle = f"{username}@github" if username else "github"
-    prompt = escape(f"{handle}:~$ ./contributions")
+    prompt = escape("Contribuições no último ano")
 
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_W}" height="{card_h}" '
@@ -52,7 +51,7 @@ def frame(svg_text: str, username: str = "") -> str:
         f'  <rect x="0.5" y="0.5" width="{CARD_W - 1}" height="{card_h - 1}" rx="10" ry="10"\n'
         f'        fill="{NEBULA}" stroke="{STAR_DUST}" stroke-width="1"/>\n'
         f'  <text x="{PAD_X}" y="42" fill="{ACCENT}" font-size="13" '
-        f'font-family="ui-monospace, SFMono-Regular, Menlo, monospace">{prompt}</text>\n'
+        f'font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">{prompt}</text>\n'
         f'  <line x1="{PAD_X}" y1="54" x2="{CARD_W - PAD_X}" y2="54" '
         f'stroke="{STAR_DUST}" stroke-width="1"/>\n'
         f'  <svg x="{PAD_X}" y="{HEADER_H}" width="{inner_w}" height="{inner_h:.1f}" '

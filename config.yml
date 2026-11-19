@@ -12,7 +12,7 @@ profile:
     Server Components. No backend, Node.js e NestJS no ecossistema JavaScript, e Go quando o
     serviço pede concorrência e baixo consumo. Entre os dois, APIs REST e gRPC, PostgreSQL,
     Redis, Docker, testes automatizados e pipelines de CI/CD.
-  philosophy: '"Código bom é o que resolve o problema de quem usa."'
+  philosophy: ''
 
 social:
   email: "santos.hugh514@gmail.com"
