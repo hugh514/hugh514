@@ -39,7 +39,7 @@ def jpeg(caminho):
 
 def salvar(caminho, w, h, rotulo, corpo):
     os.makedirs(os.path.dirname(caminho), exist_ok=True)
-    with open(caminho, "w", encoding="utf-8") as f:
+    with open(caminho, "w", encoding="utf-8", newline="\n") as f:
         f.write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{rotulo}">\n'
                 + "\n".join(corpo) + "\n</svg>")
 
