@@ -104,7 +104,7 @@ if __name__ == "__main__":
     pasta = sys.argv[1]
     fotos = os.path.join(pasta, "projetos")
     cabecalho(os.path.join(pasta, "cabecalho.svg"))
-    navegador(os.path.join(pasta, "molduras", "almofadada.svg"), os.path.join(fotos, "almofadada.jpg"), 960, 540,
+    navegador(os.path.join(pasta, "molduras", "almofadada.svg"), os.path.join(fotos, "almofadada.jpg"), 960, 416,
               "Almofadada na TV", "Quatro jogadores numa partida de futebol de duplas no Almofadada")
     celular(os.path.join(pasta, "molduras", "controle.svg"), os.path.join(fotos, "controle.jpg"), 844, 390,
             "O celular virando controle, com joystick e botões")
