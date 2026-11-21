@@ -4,7 +4,7 @@
 
 **Hugo Santos.** Técnico em informática formado pelo IFRO, trabalho com desenvolvimento aqui em Ji-Paraná, hoje na Uni Internet.
 
-Uso mais TypeScript, e também Go e C# quando o projeto pede. Não sou especialista em nada, mas gosto de fazer as coisas funcionarem bem e estou sempre aprendendo. Fora do trabalho faço coisas pequenas para gente que conheço.
+Meu dia a dia é TypeScript de ponta a ponta: telas em React e Next.js, APIs em Node.js e NestJS. Quando um serviço precisa aguentar mais carga, escrevo em Go. O que mais gosto é pegar um problema real de alguém e transformar em algo que a pessoa usa todo dia.
 
 #### coisas que fiz
 
@@ -16,4 +16,4 @@ Uso mais TypeScript, e também Go e C# quando o projeto pede. Não sou especiali
 
 #### no dia a dia
 
-<samp>typescript · react · next.js · node.js · nestjs · go · c# · postgresql · redis · docker</samp>
+<samp>typescript · react · next.js · node.js · nestjs · go · postgresql · redis · docker</samp>
