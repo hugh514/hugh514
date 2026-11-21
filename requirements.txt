@@ -1,5 +1,2 @@
-# Requires Python >= 3.9
-requests==2.32.5
-pyyaml==6.0.3
-InquirerPy==0.3.4
+# Só para scripts/perfil.py, que redesenha a moldura do print
 fonttools==4.68.0
